@@ -1,0 +1,22 @@
+.images {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+
+	&__img--desktop {
+		display: none;
+	}
+}
+
+@media (min-width: 1024px) {
+	.images {
+		grid-template-columns: repeat(4, 1fr);
+
+		&__img--mobile {
+			display: none;
+		}
+
+		&__img--desktop {
+			display: block;
+		}
+	}
+}

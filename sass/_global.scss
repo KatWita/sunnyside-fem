@@ -1,0 +1,55 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Barlow', sans-serif;
+}
+
+h1,
+h1,
+h3,
+h4,
+h5,
+h6,
+button {
+	font-family: 'Fraunces', serif;
+}
+
+button {
+	border: none;
+	background: none;
+}
+
+img {
+	display: block;
+	width: 100%;
+}
+
+.container {
+	margin: 0 auto;
+	width: 90vw;
+}
+
+button,
+.header__headline {
+	text-transform: uppercase;
+}
+
+@media (min-width: 1024px) {
+	button {
+		cursor: pointer;
+	}
+}
+
+@media (min-width: 1300px) {
+	.container {
+		width: 1200px
+	}
+}
+
+
